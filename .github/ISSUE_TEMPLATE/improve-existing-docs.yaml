@@ -1,8 +1,5 @@
----
 name: Package - Report Me
 description: Something went wrong?
----
-
 body:
   - type: markdown
     attributes:
