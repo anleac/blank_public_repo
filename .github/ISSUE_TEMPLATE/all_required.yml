@@ -2,9 +2,10 @@
 name: All required (form)
 description: File a bug report github/DIY-3
 title: "[Bug]: "
-labels: ["bug", "triage", "form"]
+labels: ["bug", "DEFINITELY-INVALID"]
 assignees:
   - monalisa
+  - torvalds
 body:
   - type: input
     attributes:
