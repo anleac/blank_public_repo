@@ -7,6 +7,9 @@ assignees:
   - monalisa
   - torvalds
 body:
+  - type: markdown
+    attributes:
+      value: You agree to follow our [Code of Conduct](https://example.com)
   - type: input
     attributes:
       label: Contact Details
