@@ -11,6 +11,15 @@ body:
         - "🚨 RED (BLOCKED)"
   - type: dropdown
     attributes:
+      label: Status 4
+      options:
+        - "🟢 GREEN (All good, smooth sailing)"
+        - "⚠️ YELLOW (At risk, heads-up)"
+        - "🚨 RED (BLOCKED)"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
       multiple: true
       label: Status 2
       options:
