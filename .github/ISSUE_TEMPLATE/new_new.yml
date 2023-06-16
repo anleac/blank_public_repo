@@ -1,5 +1,5 @@
 ---
-name: No quotes
+name: No quotes MULTIPLE
 description: Weekly status update for Epics
 body:
   - type: dropdown
@@ -9,3 +9,21 @@ body:
         - "🟢 GREEN (All good, smooth sailing)"
         - "⚠️ YELLOW (At risk, heads-up)"
         - "🚨 RED (BLOCKED)"
+  - type: dropdown
+    attributes:
+      multiple: true
+      label: Status
+      options:
+        - "🟢 GREEN (All good, smooth sailing)"
+        - "⚠️ YELLOW (At risk, heads-up)"
+        - "🚨 RED (BLOCKED)"
+  - type: dropdown
+    attributes:
+      multiple: true
+      label: Status
+      options:
+        - "🟢 GREEN (All good, smooth sailing)"
+        - "⚠️ YELLOW (At risk, heads-up)"
+        - "🚨 RED (BLOCKED)"
+    validations:
+      required: true
