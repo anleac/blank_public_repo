@@ -4,7 +4,6 @@ description: Weekly status update for Epics
 body:
   - type: dropdown
     attributes:
-      required: true
       label: Status
       options:
         - label: "🟢 GREEN (All good, smooth sailing)"
@@ -13,3 +12,5 @@ body:
           value: "Status: YELLOW"
         - label: "🚨 RED (BLOCKED)"
           value: "Status: RED"
+    validations:
+      required: true
