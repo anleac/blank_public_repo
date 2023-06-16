@@ -12,7 +12,7 @@ body:
   - type: dropdown
     attributes:
       multiple: true
-      label: Status
+      label: Status 2
       options:
         - "🟢 GREEN (All good, smooth sailing)"
         - "⚠️ YELLOW (At risk, heads-up)"
@@ -20,7 +20,7 @@ body:
   - type: dropdown
     attributes:
       multiple: true
-      label: Status
+      label: Status 3
       options:
         - "🟢 GREEN (All good, smooth sailing)"
         - "⚠️ YELLOW (At risk, heads-up)"
