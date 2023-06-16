@@ -1,0 +1,14 @@
+---
+name: No quotes
+description: Weekly status update for Epics
+body:
+  - type: dropdown
+    attributes:
+      label: Status
+      options:
+        - label: 🟢 GREEN (All good, smooth sailing)
+          value: Status: GREEN
+        - label: "⚠️ YELLOW (At risk, heads-up)"
+          value: "Status: YELLOW"
+        - label: "🚨 RED (BLOCKED)"
+          value: "Status: RED"
