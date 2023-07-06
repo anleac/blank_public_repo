@@ -1,6 +1,7 @@
 ---
-name: No quotes MULTIPLE
+name: with project
 description: Weekly status update for Epics
+projects: anleac/1
 body:
   - type: dropdown
     attributes:
