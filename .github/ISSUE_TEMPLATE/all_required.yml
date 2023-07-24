@@ -6,6 +6,8 @@ labels: ["bug", "DEFINITELY-INVALID"]
 assignees:
   - monalisa
   - torvalds
+  - anleac
+  - mboisvertdupras
 body:
   - type: markdown
     attributes:
