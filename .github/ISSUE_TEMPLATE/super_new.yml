@@ -5,7 +5,7 @@ body:
   - type: dropdown
     attributes:
       label: Status
-      default: 1
+      default: 0
       options:
         - "Test"
         - "ok"
