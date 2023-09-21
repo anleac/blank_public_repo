@@ -1,0 +1,15 @@
+name: testasdasd
+description: File a bug report  drubjubg
+title: "[Bug]: "
+body:
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      default: 0
+      description: What version of our software are you running?
+      options:
+       - test
+       - test 2
+    validations:
+      required: true
