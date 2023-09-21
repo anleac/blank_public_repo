@@ -1,0 +1,12 @@
+---
+name: supa
+description: Weekly status update for Epics
+projects: anleac/1
+body:
+  - type: dropdown
+  - default: 0
+    attributes:
+      label: Status
+      options:
+        - "Test"
+        - "ok"
