@@ -25,8 +25,9 @@ body:
     attributes:
       label: More information
       description: Do you have any other useful information about this feature report? Please write it down here. Possible helpful information are references to other sites/repositories
-  - type: checkbox
+  - type: checkboxes
     id: interested-in-pr
-    attributes:
-      label: Are you interested in working on a PR for this?
+    label: Are you interested in working on a PR for this?
+    options:
+      label: Yes 
       
