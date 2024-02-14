@@ -29,5 +29,5 @@ body:
   attributes:
     label: Are you interested in working on a PR for this?
     options:
-      - label: I agree to follow this project's [Code of Conduct](link/to/coc)
+      - label: Yes 
       
